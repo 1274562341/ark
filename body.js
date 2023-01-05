@@ -3,7 +3,7 @@ document.write(`
 <span v-if="iszx" class="zx">·</span>
 <div id="func" :style="funstyle">
   <el-tabs type="border-card" style="width: 380px; max-height: 500px; overflow: scroll">
-    <el-tab-pane label="基础功能">
+    <el-tab-pane label="基础功能啊">
       <!-- 全局加速 -->
       <span class="text">全局速度：
         <el-tag size="mini" type="danger" effect="dark">{{ globalSpeed.value }}</el-tag>
