@@ -1,0 +1,144 @@
+html {
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font: Fantasy;
+  font-weight: 900;
+  color: black;
+  background: transparent;
+}
+
+body {
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font: Fantasy;
+  font-weight: 900;
+  color: white;
+  background: transparent;
+}
+.mytip{
+  position: absolute;
+  left: 50%;
+  color: red;
+  font-size: 12px;
+  transform: translateX(-50%);
+}
+#func {
+  width: auto;
+  height: auto;
+  overflow-y: auto;
+  position: absolute;
+  font-size: 12px !important;
+}
+
+.kjgn {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  z-index: 999999;
+}
+
+.el-tabs__item,
+.el-checkbox__label {
+  font-size: 13px !important;
+}
+
+.text {
+  color: #fff;
+}
+
+.zxbj {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.el-checkbox__inner {
+  width: 24px;
+  height: 24px;
+}
+
+.el-checkbox__inner::after {
+  /* display: none; */
+  height: 12px;
+  left: 9px;
+  top: 3px;
+}
+
+.el-tabs--border-card {
+  background: rgba(0, 0, 0, 0.7) !important;
+  border: none !important;
+}
+
+.el-tabs__header,
+.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+  background: transparent !important;
+  border: none !important;
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item {
+  border: none !important;
+}
+
+.el-checkbox {
+  color: #fff;
+}
+
+/* html {
+    background: red;
+  } */
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 0px;
+}
+
+.el-slider__button {
+  border: none !important;
+}
+
+.el-slider__runway {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.el-slider__bar {
+  background: transparent;
+}
+
+.el-slider__button {
+  background: rgba(255, 255, 255, 0.7);
+  height: 12px;
+  width: 12px;
+}
+
+.el-timeline-item__content {
+  color: #fff;
+}
+
+* {
+  user-select: none;
+}
+
+.zx {
+  font-weight: 100;
+  font-size: 50px;
+  color: red;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.el-tabs__nav-next,
+.el-tabs__nav-prev {
+  color: #fff !important;
+}
+
+/* background: rgba(0, 0,0 0.5) !important; */
